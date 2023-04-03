@@ -1,1 +1,19 @@
 /* CSS Stylesheet For Calculator */
+
+* {
+    font-family: Segoe UI;
+}
+
+/* Webpage Title */
+.web-title {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: dodgerblue;
+    color: yellow;
+    text-shadow: 2px 2px grey;
+
+}
