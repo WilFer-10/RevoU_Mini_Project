@@ -49,10 +49,10 @@
                 <div class="sec-title">
                     <h2>TRIANGLE AREA</h2>
                 </div>
-                <img src="/assets/triangle.png">
+                <img class="shapes" src="/assets/triangle.png">
                 <div class="sec-text">
                     <p>Formula for triangle's area is :</p>
-                    <p> L = ½  x  a  x  t</p>
+                    <p class="formula"> L = ½  x  a  x  t</p>
                     <p>Where :</p>
                     <p>L = Area (Luas)</p>
                     <p>a = base (alas)</p>
@@ -61,19 +61,25 @@
                 <hr>
                 <!-- Form Input & Submit -->
                 <div>
-                    <h3 class="cal-title">CALCULATE TRIANGLE AREA</h3>
+                    <h3>CALCULATE TRIANGLE AREA</h3>
                     <form action="">
-                        <input type="number">
-                        <input type="number">
-                        <button class="calculate" type="submit">Calculate !</button>
+                        <input class="box" name="tr-base" type="text" placeholder="Base (alas)">
                         <br>
-                        <button class="reset" type="submit">Reset</button>
+                        <input class="box" name="tr-height" type="text" placeholder="Height (tinggi)">
+                        <br>
+                        <input class="submit" type="submit">
+                        <br>
+                        <input class="reset" type="reset">
                     </form>
                 </div>
             </section>
+            <br>
             <section id="triangle-perimeter"></section>
+            <br>
             <section id="parallelogram-area"></section>
+            <br>
             <section id="parallelogram-perimeter"></section>
+            <br>
         </main>
 
         <!-- Footer -->
