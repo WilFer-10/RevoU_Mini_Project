@@ -4,6 +4,10 @@ html {
     font-family: Segoe UI;
 }
 
+p {
+    line-height: 15px;
+}
+
 /* Webpage Title */
 .web-title {
     text-align: center;
