@@ -61,10 +61,10 @@ html {
 
 /* Form & Input Box */
 .form-box {
-    border: 2px blue solid;
-    box-shadow: 7px 7px 7px 1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 7px 7px 7px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 7px 7px 7px 1px rgba(0,0,0,0.75);
+    border: 1px black solid;
+    box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.75);
     padding: 10px;
     height: 910px;
 }
