@@ -1,7 +1,7 @@
 /* CSS Stylesheet For Calculator */
 
 html {
-    font-family: Segoe UI;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Webpage Title */
@@ -67,10 +67,10 @@ html {
     -webkit-box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.75);
     padding: 10px;
-    height: 910px;
+    height: 950px;
 }
 
-.sec-title > h2 {
+h2 {
     text-align: center;
     background-color:deepskyblue;
     color: yellow;
@@ -126,6 +126,11 @@ form {
     font-size: 17px;
 }
 
+#area.for, #area.cal, #tri.area {
+    margin-left: 200px;
+    text-align: center;
+}
+
 .submit {
     background-color: limegreen;
     border: none;
@@ -162,10 +167,4 @@ form {
     padding : 10px 10px;
     font-size: 15px;
     /*margin: 10px auto 10px 100px;*/
-}
-
-#tr.area {
-    width: 200;
-    height: 200;
-    margin: 0px;
 }

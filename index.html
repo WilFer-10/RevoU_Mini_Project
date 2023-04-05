@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="/css/index.css">
 
         <!-- Link To JS -->
-        <Script type="text/javascript" src="/css/index.css"></Script>
+        <Script type="text/javascript" src="/js/index.js"></Script>
 
     </head>
 
@@ -49,43 +49,39 @@
         <main>
             <section class="form-box" id="triangle-area">
                 <!-- Form Information -->
-                <div class="sec-title">
-                    <h2>TRIANGLE AREA</h2>
-                </div>
+                <h2>TRIANGLE AREA</h2>
                 <img class="shapes" src="/assets/triangle.png">
-                <div class="sec-text">
-                    <p>Formula for triangle's area is :</p>
-                    <p class="formula"> L = ½  x  a  x  t</p>
-                    <p>Where :</p>
-                    <p>L = Area (Luas)</p>
-                    <p>a = base (alas)</p>
-                    <p>t = height (tinggi)</p>
-                </div>
+                <p>Formula for triangle's area is :</p>
+                <p class="formula"> L = ½  x  a  x  t</p>
+                <p>Where :</br>
+                L = Area (Luas)</br>
+                a = base (alas)</br>
+                t = height (tinggi)</p>
                 <hr>
+                
                 <!-- Form Input & Submit -->
-                <div>
-                    <h3>CALCULATE TRIANGLE AREA</h3>
-                    <form class="input-form">
-                        <input class="box" id="tr.base" type="text" placeholder="Base (alas)">
-                        <br>
-                        <input class="box" id="tr.height" type="text" placeholder="Height (tinggi)">
-                        <br>
-                    </form>
-                    <p id="tr.area"></p>
+                <h3>CALCULATE TRIANGLE AREA</h3>
+                <form class="input-form">
+                    <input class="box" id="tri.base" type="text" placeholder="Base (alas)">
                     <br>
-                    <input type="button" class="submit" value="Calculate" onclick="triarea()">
+                    <input class="box" id="tri.height" type="text" placeholder="Height (tinggi)">
                     <br>
-                    <input class="reset" type="reset">
-                    <a href="#top" class="back-top">Back To Top</a>
-                </div>
+                </form>
+                <p id="area.for"></p>
+                <p id="area.cal"></p>
+                <p id="tri.area"></p>
+                <input type="button" class="submit" value="Calculate" onclick="triarea()">
+                <br>
+                <input class="reset" type="reset">
+                <a href="#top" class="back-top">Back To Top</a>
             </section>
-            <br>
+            <!-- <br>
             <section class="form-box" id="triangle-perimeter"></section>
             <br>
             <section class="form-box" id="parallelogram-area"></section>
             <br>
             <section class="form-box" id="parallelogram-perimeter"></section>
-            <br>
+            <br> -->
         </main>
 
         <!-- Footer -->
