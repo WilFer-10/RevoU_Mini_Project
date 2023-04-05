@@ -4,10 +4,6 @@ html {
     font-family: Segoe UI;
 }
 
-p {
-    line-height: 15px;
-}
-
 /* Webpage Title */
 .web-title {
     text-align: center;
@@ -125,7 +121,7 @@ form {
     border: 2px solid black;
     text-align: center;
     width: 300px;
-    margin: 0 auto 10px auto;
+    margin: auto auto 10px auto;
     padding: 10px;
     font-size: 17px;
 }
@@ -153,7 +149,7 @@ form {
     font-weight: bold;
     text-shadow: 2px 2px grey;
     width: 100px;
-    margin: 10px 250px 10px auto;
+    /* margin: 10px 250px 10px auto; */
 }
 
 .back-top {
@@ -165,5 +161,11 @@ form {
     border-radius: 10px;
     padding : 10px 10px;
     font-size: 15px;
-    margin: 10px auto 10px 100px;
+    /*margin: 10px auto 10px 100px;*/
+}
+
+#tr.area {
+    width: 200;
+    height: 200;
+    margin: 0px;
 }

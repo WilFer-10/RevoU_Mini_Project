@@ -65,16 +65,18 @@
                 <!-- Form Input & Submit -->
                 <div>
                     <h3>CALCULATE TRIANGLE AREA</h3>
-                    <form action="" class="input-form">
-                        <input class="box" id="tr.base.a" type="text" placeholder="Base (alas)">
+                    <form class="input-form">
+                        <input class="box" id="tr.base" type="text" placeholder="Base (alas)">
                         <br>
                         <input class="box" id="tr.height" type="text" placeholder="Height (tinggi)">
                         <br>
-                        <input class="submit" type="submit">
-                        <br>
-                        <input class="reset" type="reset">
-                        <a href="#top" class="back-top">Back To Top</a>
                     </form>
+                    <p id="tr.area"></p>
+                    <br>
+                    <input type="button" class="submit" value="Calculate" onclick="triarea()">
+                    <br>
+                    <input class="reset" type="reset">
+                    <a href="#top" class="back-top">Back To Top</a>
                 </div>
             </section>
             <br>
