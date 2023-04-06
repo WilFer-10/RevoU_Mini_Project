@@ -67,9 +67,10 @@ html {
     -webkit-box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.75);
     padding: 10px;
-    height: 1000px;
+    height: auto;
 }
 
+/* Form Title */
 h2 {
     text-align: center;
     background-color:deepskyblue;
@@ -103,7 +104,7 @@ h3 {
     margin: 10px 0;
 }
 
-/* Input Box, Result & Buttons */
+/* Form for Input Box, Result & Buttons */
 form {
     margin : 0 auto;
 }
@@ -112,6 +113,7 @@ form {
     color: transparent;
 }
 
+/* Input Box */
 .input-form {
     margin: auto;
     text-align: center;
@@ -123,9 +125,10 @@ form {
     width: 300px;
     margin: auto auto 10px auto;
     padding: 10px;
-    font-size: 17px;
+    font-size: 20px;
 }
 
+/* Result Text */
 .result {
     text-align: center;
     font-size: 20px;
@@ -133,19 +136,25 @@ form {
     font-weight: bold;
 }
 
+/* Submit Button */
 .submit {
+    display: flex;
     background-color: limegreen;
+    color: ghostwhite;
+    text-align: center;
+    text-shadow: 2px 2px grey;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    width: 150px;
     border: none;
     border-radius: 50px;
-    padding: 10px;
-    font-size: 17px;
-    color: ghostwhite;
-    font-weight: bold;
-    text-shadow: 2px 2px grey;
-    width: 150px;
-    margin: 0 auto 10px auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
+/* Reset Button */
 .reset {
     background-color: red;
     color: ghostwhite;
@@ -156,10 +165,11 @@ form {
     font-weight: bold;
     text-shadow: 2px 2px grey;
     width: 100px;
-    /* margin: 10px 250px 10px auto; */
+    margin: 10px 250px 10px 670px;
 }
 
-.back-top {
+/* Back Button */
+.back {
     text-decoration: none;
     background-color: blue;
     color: white;
@@ -168,5 +178,5 @@ form {
     border-radius: 10px;
     padding : 10px 10px;
     font-size: 15px;
-    /*margin: 10px auto 10px 100px;*/
+    margin: 10px auto 10px 100px;
 }
