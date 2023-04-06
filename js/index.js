@@ -1,16 +1,33 @@
 // Clear Form Input
 function clearform() {
-  document.getElementById("area.for").textContent="";
-  document.getElementById("area.cal").textContent="";
+  //Clear Form Triangle Area
+  document.getElementById("tri.area.for").textContent="";
+  document.getElementById("tri.area.cal").textContent="";
   document.getElementById("tri.area").textContent="";
+  
+  //Clear Form Triangle Perimeter
+  document.getElementById("tri.peri.for").textContent="";
+  document.getElementById("tri.peri.cal").textContent="";
+  document.getElementById("tri.peri").textContent="";
 }
 
-// Calculate Triangle Area & Perimeter
+// Calculate Triangle Area
 function triarea() {
-    const a = parseFloat(document.getElementById("tri.base").value);
+    const a = parseFloat(document.getElementById("tri.base.a").value);
     const t = parseFloat(document.getElementById("tri.height").value);
     let tri_area = (a * t) / 2;
-    document.getElementById("area.for").textContent = "L = ½ x a x t";
-    document.getElementById("area.cal").textContent = "L = ½ x " + a + " cm x " + t + " cm = " + tri_area + " cm";
+    document.getElementById("tri.area.for").textContent = "L = ½ x a x t";
+    document.getElementById("tri.area.cal").textContent = "L = ½ x " + a + " cm x " + t + " cm = " + tri_area + " cm";
     document.getElementById("tri.area").textContent = "The area of triangle is " + tri_area + " cm"; 
   }
+
+// Calculate Triangle Area & Perimeter
+function triperi() {
+  const a = parseFloat(document.getElementById("tri.base.b").value);
+  const b = parseFloat(document.getElementById("tri.side1").value);
+  const c = parseFloat(document.getElementById("tri.side2").value);
+  let tri_peri = a + b + c;
+  document.getElementById("tri.peri.for").textContent = "K = a + b + c";
+  document.getElementById("tri.peri.cal").textContent = "K = " + a + " cm + " + b + " cm = " + c + " cm = " + tri_peri + " cm";
+  document.getElementById("tri.peri").textContent = "The perimeter of triangle is " + tri_peri + " cm"; 
+}

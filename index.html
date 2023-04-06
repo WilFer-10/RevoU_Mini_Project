@@ -52,7 +52,7 @@
                 <h2>TRIANGLE AREA</h2>
                 <img class="shapes" src="/assets/triangle.png">
                 <p>Formula for triangle's area is :</p>
-                <p class="formula"> L = ½  x  a  x  t</p>
+                <p class="formula"> L =  ½  x  a  x  t</p>
                 <p>Where :</br>
                 L = Area (Luas)</br>
                 a = base (alas)</br>
@@ -62,13 +62,13 @@
                 <!-- Form Input & Submit -->
                 <h3>CALCULATE TRIANGLE AREA</h3>
                 <form class="input-form">
-                    <input class="box" id="tri.base" type="text" placeholder="Base (alas) - cm">
+                    <input class="box" id="tri.base.a" type="text" placeholder="Base (alas) - cm">
                     <br>
                     <input class="box" id="tri.height" type="text" placeholder="Height (tinggi) - cm">
                     <br>
                     <div class="result">
-                        <p id="area.for"></p>
-                        <p id="area.cal"></p>
+                        <p id="tri.area.for"></p>
+                        <p id="tri.area.cal"></p>
                         <p id="tri.area"></p>
                     </div>
                     <input type="button" class="submit" value="CALCULATE" onclick="triarea()">
@@ -77,11 +77,45 @@
                         <input type="reset" class="reset" value="Reset" onclick="clearform()">
                         <a href="#top" class="back">Back To Top</a>
                     </div>
-                </form>   
+                </form>
+            </section>
+            <br>
+            <section class="form-box" id="triangle-perimeter">
+                <!-- Form Information -->
+                <h2>TRIANGLE PERIMETER</h2>
+                <img class="shapes" src="/assets/triangle.png">
+                <p>Formula for triangle's area is :</p>
+                <p class="formula"> K =  a  +  b  +  c</p>
+                <p>Where :</br>
+                K = Perimeter (Keliling)</br>
+                a = base (alas)</br>
+                b = side (sisi)</br>
+                c = side (sisi)</p>
+                <hr>
+                
+                <!-- Form Input & Submit -->
+                <h3>CALCULATE TRIANGLE PERIMETER</h3>
+                <form class="input-form">
+                    <input class="box" id="tri.base.b" type="text" placeholder="Base (alas) - cm">
+                    <br>
+                    <input class="box" id="tri.side1" type="text" placeholder="Side (sisi) - cm">
+                    <br>
+                    <input class="box" id="tri.side2" type="text" placeholder="Side (sisi) - cm">
+                    <br>
+                    <div class="result">
+                        <p id="tri.peri.for"></p>
+                        <p id="tri.peri.cal"></p>
+                        <p id="tri.peri"></p>
+                    </div>
+                    <input type="button" class="submit" value="CALCULATE" onclick="triperi()">
+                    <br>
+                    <div class="lower-button">
+                        <input type="reset" class="reset" value="Reset" onclick="clearform()">
+                        <a href="#top" class="back">Back To Top</a>
+                    </div>
+                </form>
             </section>
             <!-- <br>
-            <section class="form-box" id="triangle-perimeter"></section>
-            <br>
             <section class="form-box" id="parallelogram-area"></section>
             <br>
             <section class="form-box" id="parallelogram-perimeter"></section>
