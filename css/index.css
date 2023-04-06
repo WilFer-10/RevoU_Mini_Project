@@ -154,6 +154,16 @@ form {
     margin: auto;
 }
 
+/* Container Reset & Back Button */
+.lower-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+}
+
 /* Reset Button */
 .reset {
     background-color: red;
@@ -165,7 +175,6 @@ form {
     font-weight: bold;
     text-shadow: 2px 2px grey;
     width: 100px;
-    margin: 10px 250px 10px 670px;
 }
 
 /* Back Button */
@@ -178,5 +187,4 @@ form {
     border-radius: 10px;
     padding : 10px 10px;
     font-size: 15px;
-    margin: 10px auto 10px 100px;
 }
