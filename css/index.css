@@ -171,7 +171,7 @@ form {
     border: none;
     border-radius: 10px;
     padding : 10px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     text-shadow: 2px 2px grey;
     width: 100px;
@@ -186,5 +186,5 @@ form {
     font-weight: bold;
     border-radius: 10px;
     padding : 10px 10px;
-    font-size: 15px;
+    font-size: 17px;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     
     <!-- Index -->
     <head>
@@ -66,19 +66,18 @@
                     <br>
                     <input class="box" id="tri.height" type="text" placeholder="Height (tinggi) - cm">
                     <br>
-                </form>
-                <div class="result">
-                    <p id="area.for"></p>
-                    <p id="area.cal"></p>
-                    <p id="tri.area"></p>
-                </div>
-                <input type="button" class="submit" value="CALCULATE" onclick="triarea()">
-                <br>
-                <div class="lower-button">
-                    <input class="reset" type="reset">
-                    <a href="#top" class="back">Back To Top</a>
-                </div>
-                
+                    <div class="result">
+                        <p id="area.for"></p>
+                        <p id="area.cal"></p>
+                        <p id="tri.area"></p>
+                    </div>
+                    <input type="button" class="submit" value="CALCULATE" onclick="triarea()">
+                    <br>
+                    <div class="lower-button">
+                        <input type="reset" class="reset" value="Reset" onclick="clearform()">
+                        <a href="#top" class="back">Back To Top</a>
+                    </div>
+                </form>   
             </section>
             <!-- <br>
             <section class="form-box" id="triangle-perimeter"></section>

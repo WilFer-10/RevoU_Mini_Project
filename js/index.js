@@ -1,5 +1,11 @@
-// Calculate Triangle Area & Perimeter
+// Clear Form Input
+function clearform() {
+  document.getElementById("area.for").textContent="";
+  document.getElementById("area.cal").textContent="";
+  document.getElementById("tri.area").textContent="";
+}
 
+// Calculate Triangle Area & Perimeter
 function triarea() {
     const a = parseFloat(document.getElementById("tri.base").value);
     const t = parseFloat(document.getElementById("tri.height").value);
