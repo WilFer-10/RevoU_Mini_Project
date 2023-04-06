@@ -38,7 +38,7 @@ function triperi() {
   const c = parseFloat(document.getElementById("tri.side2").value);
   let tri_peri = a + b + c;
   document.getElementById("tri.peri.for").textContent = "K = a + b + c";
-  document.getElementById("tri.peri.cal").textContent = "K = " + a + " cm + " + b + " cm = " + c + " cm = " + tri_peri + " cm";
+  document.getElementById("tri.peri.cal").textContent = "K = " + a + " cm + " + b + " cm + " + c + " cm = " + tri_peri + " cm";
   document.getElementById("tri.peri").textContent = "The perimeter of Triangle is " + tri_peri + " cm"; 
 }
 
