@@ -67,7 +67,7 @@ html {
     -webkit-box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.75);
     padding: 10px;
-    height: 950px;
+    height: 1000px;
 }
 
 h2 {
@@ -103,7 +103,7 @@ h3 {
     margin: 10px 0;
 }
 
-/* Input Box & Buttons */
+/* Input Box, Result & Buttons */
 form {
     margin : 0 auto;
 }
@@ -126,9 +126,11 @@ form {
     font-size: 17px;
 }
 
-#area.for, #area.cal, #tri.area {
-    margin-left: 200px;
+.result {
     text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .submit {
